@@ -16,6 +16,8 @@ const Bubble: React.FC = () => {
       {isOpen && (
         <div className="mb-2 bg-white text-black text-sm p-6 rounded-lg shadow-lg border border-gray-200 w-auto max-w-sm">
           <h3 className="font-semibold text-lg mb-4">SQL Injection Scenarios</h3>
+          <h2>Text field email dalam login belum steril, sehingga bisa dilakukan sql injection</h2>
+          <h2><br></br>Coba lakukan hal di bawah ini:</h2>
           
           <div className="mb-6">
             <p className="font-semibold mb-1">Change Name Only:</p>
@@ -28,7 +30,6 @@ const Bubble: React.FC = () => {
                 Copy
               </button>
             </div>
-            <p className="text-xs mt-2">This will change only the name of the item with id=2.</p>
           </div>
 
           <div className="mb-6">
