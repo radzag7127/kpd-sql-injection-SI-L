@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ShoppingPage from "./Shopping/Shopping";
 
 export default function Home() {
