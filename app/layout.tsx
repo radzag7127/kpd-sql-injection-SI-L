@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Contoh Praktik Sql Injection",
   description: "Untuk tugas Kelompok KPD SI-L",
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
